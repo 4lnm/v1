@@ -40,7 +40,7 @@ import Player from './VidstackPlayer/player';
                         setError(true);
                     }
                     const sources = response?.sources?.find(i => i.quality === "default" || i.quality === "auto")?.url || response?.sources?.find(i => i.quality === "1080p")?.url || response?.sources?.find(i => i.type === "hls")?.url;
-                    setSrc(`https://rust-proxy-production.up.railway.app/?url=${sources}`);
+                    setSrc(`https://rust-proxy-production.up.railway.app/?url=${sources}`); //test
                     const download = response?.download;
 
                     let subtitlesArray = response.tracks || response.subtitles;
