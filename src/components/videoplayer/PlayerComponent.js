@@ -128,7 +128,7 @@ import Player from './VidstackPlayer/player';
                 url: window.location.href,
                 });
             } else {
-                // Web Share API is not supported, provide a fallback or show a message
+                // Web Share API is not supported, provide a fallback or show a message s
                 alert("Web Share API is not supported in this browser.");
             }
             } catch (error) {
